@@ -15,10 +15,7 @@ import styles from './styles.less';
 import bitcoinIcon from 'Root/images/bitcoin.png';
 import ethereumIcon from 'Root/images/ethereum.png';
 
-
 const Range = createSliderWithTooltip(Slider.Range);
-
-
 
 function range(e) {
   console.log(e);
